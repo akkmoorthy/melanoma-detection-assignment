@@ -28,21 +28,25 @@ The data set contains the following diseases:
 ## Conclusion
 We had created 3 models to derive the conclusion
 1. Model 1:
-   This model shows that training accuracy is much higher than validation accuracy. We can also notice differences in loss functions in training and validation data. This is a clear instance of overfitting, in which the model learnt too much from the training dataset and is unable to perform well on the validation dataset.
+   1. This model shows that training accuracy is much higher than validation accuracy.
+   2. We can also notice differences in loss functions in training and validation data.
+   3. This is a clear instance of overfitting, in which the model learnt too much from the training dataset and is unable to perform well on the validation dataset.
    - Training Accuracy: 90.82
    - Validation Accuracy: 52.80
   
 2. Model 2 with augmented data:
-   Post this, Training accuracy has not increased when compared to the first model.
-   However there is very less difference between training and validation accuracy.
-   There is very marginal improvement in the Validation accuracy compared to the first model.
-   Training loss and Validation loss has very less difference.
-   And we see that overfitting has been decreased as a result of data augmentation.
+   1. Post this, Training accuracy has not increased when compared to the first model.
+   2. However there is very less difference between training and validation accuracy.
+   3. There is very marginal improvement in the Validation accuracy compared to the first model.
+   4. Training loss and Validation loss has very less difference.
+   5. And we see that overfitting has been decreased as a result of data augmentation.
    - Training Accuracy: 64.63
    - Validation Accuracy: 54.81
   
 3. Final Model after rectifing class imbalance:
-   Post the augmentation and class imbalance management, training and validation accuracy has increased. The model does not overfit. This model can serve as the final model.
+   1. Post the augmentation and class imbalance management, training and validation accuracy has increased.
+   2. The model does not overfit.
+   3. This model can serve as the final model.
    - Training Accuracy: 95.11
    - Validation Accuracy: 84.04
 
